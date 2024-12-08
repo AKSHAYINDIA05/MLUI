@@ -2,7 +2,7 @@ import streamlit as st
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
-from mlcode.cleaning_data import correlation_matrix, customer_engagement
+from cleaning_data import correlation_matrix, customer_engagement
 
 # Assuming customer_engagement and correlation_matrix are pre-defined DataFrames
 

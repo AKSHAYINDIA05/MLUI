@@ -1,5 +1,5 @@
 import streamlit as st
-from mlcode.cleaning_data import final_df
+from cleaning_data import final_df
 import pandas as pd
 
 # Ensure 'PURCHASE_' column is in datetime format

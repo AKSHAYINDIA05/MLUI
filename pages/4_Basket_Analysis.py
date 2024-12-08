@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from mlxtend.frequent_patterns import apriori, association_rules
-from mlcode.cleaning_data import encoded_df, final_df
+from cleaning_data import encoded_df, final_df
 
 
 # Generate frequent itemsets and association rules

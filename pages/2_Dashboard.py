@@ -1,7 +1,7 @@
 import streamlit as st
 import seaborn as sns
 import pandas as pd
-from mlcode.cleaning_data import merged_engagement_df, household_spend_trends, category_spend_trends, category_units_trends, category_growth_spend, latest_year_spend_sorted
+from cleaning_data import merged_engagement_df, household_spend_trends, category_spend_trends, category_units_trends, category_growth_spend, latest_year_spend_sorted
 
 # Demographics and Engagement Section
 with st.expander(label="Demographics and Engagement"):

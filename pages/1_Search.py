@@ -1,5 +1,5 @@
 import streamlit as st
-from mlcode.cleaning_data import final_df
+from cleaning_data import final_df
 
 hshd_num_search = st.text_input("Enter HSHD_NUM to search for:")
 
